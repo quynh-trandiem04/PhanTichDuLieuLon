@@ -10,7 +10,7 @@
 
 ## 📌 Mô tả dự án
 
-Đồ án triển khai hệ thống xử lý dữ liệu chất lượng không khí tại TP.HCM theo kiến trúc **Lakehouse**, sử dụng cả dữ liệu **batch** (CSV) và **streaming** (API). Hệ thống tích hợp các công cụ như **Kafka, Spark, Airflow, HDFS, Delta Lake**, kết hợp **Power BI** để trực quan hóa và **Azure Databricks** để triển khai trên Cloud.  
+Đồ án triển khai hệ thống xử lý dữ liệu chất lượng không khí tại TP.HCM theo kiến trúc **Lakehouse**, sử dụng cả dữ liệu **batch** (CSV) và **streaming** (API). Hệ thống tích hợp các công cụ như **Kafka, Spark, Airflow, HDFS, Delta Lake**, kết hợp **Power BI** để trực quan hóa, chạy trên cục bộ **Ubuntu** và sau đó dùng **Azure Databricks** để triển khai trên Cloud.  
 Dự án hướng tới xây dựng pipeline dữ liệu tự động, kết hợp với mô hình học máy như **Random Forest**, **SARIMA** để phân loại và dự báo chỉ số PM2.5, hỗ trợ ra quyết định môi trường.
 
 ---
